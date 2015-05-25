@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff -u highlighted the differences between the first .
+-----------------------------------------------------------------------------------------------------------------------
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+No need to rewrite codes. I can just reuse the old codes and make some updates. Its faster and reduces
+the tendency of making mistakes 
+----------------------------------------------------------------------------------------------------------------------
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+When comit is automatic, you might have too many check points and it might make the work difficult interprete. 
+But on the otherside its safe because its eliminates the aspect of forgetfulness.
+
+When commit is manual on the other hand, you controle how often its done but also is becomes dangerious 
+when we omit or forget to comit an import change 
+---------------------------------------------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+because the files are interlinked and depends on each other 
+-----------------------------------------------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+
+First downlod the repository using git clone
+then get the number of commits using git log
+then use find the difference between two id's using git diff 
+-----------------------------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that could break something?
+
+saving different versions of codes makes it easy to revert in cases
+of debugging. One can easly find out in which version the bug was 
+introduced 
+-----------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+
+version controle
+----------------------------------------------------------------------------------
+What happens when you initialize a repository? Why do you need to do it?
+
+- when you initialize you get a message telling you that git is initialized
+with  files in the directory if files are present.
+
+- This need to be done to create a repository so to commit the file 
