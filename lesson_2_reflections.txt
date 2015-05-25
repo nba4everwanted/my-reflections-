@@ -9,4 +9,33 @@ with  files in the directory if files are present.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 - you can add or remove only the files that you want to commit
-- its helps to do logical commits. 
+- its helps to do logical commits.
+
+---------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+- by using git diff --staged to see the difference between the staging area and the repository
+- and usig  git reset --hard to revert all the chages back into the working directory
+
+-------------------------------------------------------------------
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+
+- when i want to make a logical change not on the main version 
+- with the branch no change will affect the master
+
+-  git branch : to see all the branches available. The branch with the star is the branch that is currently checked 
+-  git branch easy-mode : create a called easy-mode 
+-  git checkout easy-mode : get the current branch to change from master to easy-mode. All changes will be in easy-mode 
+and will not affect masterand 
+
+----------------------------------------------------------------------
+
+How do the diagrams help you visualize the branch structure?
+
+- by linking the branches one can determine which is beeing checked out 
+and where to create a new branch 
+
+git log --graph --oneline master coins : to see the branch diagram
+

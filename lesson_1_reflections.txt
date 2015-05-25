@@ -43,3 +43,4 @@ What happens when you initialize a repository? Why do you need to do it?
 with  files in the directory if files are present.
 
 - This need to be done to create a repository so to commit the file 
+----------------------------------------------------------------------
