@@ -39,3 +39,17 @@ and where to create a new branch
 
 git log --graph --oneline master coins : to see the branch diagram
 
+-------------------------------------------------------------------------
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+- to update the codes
+- to know the parent branches
+
+git merge : always merges all the specified branches into the currently checked out branch, 
+creating a new commit for that branch.
+
+-------------------------------------------------------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- for logical commit controle
